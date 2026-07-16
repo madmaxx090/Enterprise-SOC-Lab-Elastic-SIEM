@@ -94,44 +94,6 @@ The detection process consists of five stages:
 | Detection Framework | Elastic Security |
 | Attack Mapping | MITRE ATT&CK |
 
----
-
-# Related Documentation
-
-- Report/Enterprise-SOC-Report.pdf
-- Detection-Rules/
-- MITRE/
-- Queries/
-- Screenshots/
 
 ---
 
-# Diagrams
-
-## Network Architecture
-
-![Network Diagram](Network-Diagram.png)
-
----
-
-## Lab Topology
-
-![Lab Topology](Lab-Topology.png)
-
----
-
-## Data Flow
-
-![Data Flow](Data-Flow.png)
-
----
-
-## Attack Flow
-
-![Attack Flow](Attack-Flow.png)
-
----
-
-## Detection Workflow
-
-![Detection Workflow](Detection-Workflow.png)
