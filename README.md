@@ -40,3 +40,36 @@ graph LR
     style Attack_Simulation fill:none,stroke:#d9534f,stroke-dasharray: 5 5,color:#d9534f
     style Defense_Ingestion fill:none,stroke:#5bc0de,stroke-dasharray: 5 5,color:#5bc0de
     style Centralized_SIEM fill:none,stroke:#5cb85c,stroke-dasharray: 5 5,color:#5cb85c
+
+## Project Overview
+
+This project demonstrates the design and implementation of a home-based Enterprise Security Operations Center (SOC) using the Elastic Stack. The lab collects Windows security telemetry with Sysmon and Elastic Agent, centralizes logs in Elasticsearch, and enables monitoring, detection engineering, and threat hunting through Kibana. Multiple attack simulations were performed to validate detections and map activity to the MITRE ATT&CK framework.
+
+## Objectives
+
+- Build an enterprise-style SIEM lab
+- Collect Windows security telemetry
+- Configure Fleet Server and Elastic Agent
+- Monitor Sysmon events
+- Simulate real-world attacks
+- Develop detection rules
+- Perform threat hunting
+- Map detections to MITRE ATT&CK
+## 🖥️ Lab Environment
+
+The Enterprise SOC Lab was built in a virtualized environment using VMware Workstation. The lab consists of an attacker machine (Kali Linux), a victim endpoint (Windows 10), and the Elastic Stack for centralized log collection, monitoring, and threat detection.
+
+| **Component** | **Description** |
+|--------------|-----------------|
+| **Host Machine** | Windows 11 Pro |
+| **Hypervisor** | VMware Workstation |
+| **Attacker Machine** | Kali Linux |
+| **Victim Machine** | Windows 10 Pro |
+| **SIEM Platform** | Elastic Stack (Elasticsearch & Kibana) |
+| **Log Collection** | Elastic Agent |
+| **Endpoint Monitoring** | Sysmon |
+| **Agent Management** | Fleet Server |
+| **Dashboard & Visualization** | Kibana |
+| **Operating System Logs** | Windows Event Logs |
+| **Threat Detection** | Elastic Security Detection Rules |
+| **Threat Hunting** | Kibana Discover (KQL) |
